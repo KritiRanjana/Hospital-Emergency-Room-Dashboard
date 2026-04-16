@@ -40,7 +40,7 @@ Dashboard KPIs Covered
 
 
  Key Insights
-*Insights are based on the default full-year view. Numbers update dynamically based on slicer selections (month/year)*
+ > **Insights are based on the default full-year view. Numbers update dynamically based on slicer selections (month/year)**
 
 - **More than half of all patients experienced delays** — the majority of ER visitors waited longer than 30 minutes, highlighting a significant operational bottleneck in patient flow
 - **Average wait time exceeds 30 minutes** — with a wide range across days, suggesting inconsistent staffing or triage processes that could be improved
