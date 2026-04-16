@@ -6,43 +6,41 @@ An end-to-end data analytics project built in Microsoft Excel, covering the comp
 
 Project Overview
 
-This project analyzes **9,216 Emergency Room patient records across 2023** to uncover trends in patient volume, wait times, satisfaction scores, admission status, and departmental referrals. The goal was to build a dynamic, interactive dashboard that helps hospital management make data-driven decisions.
+This project analyzes **9,216 Emergency Room patient records across 2023 to 2024 ** to uncover trends in patient volume, wait times, satisfaction scores, admission status, and departmental referrals. The goal was to build a dynamic, interactive dashboard that helps hospital management make data-driven decisions.
 
 
 
 Project Workflow
 
-| Step | Description |
-|------|-------------|
-| 1 | **Business Requirement Gathering** — Defined KPIs and questions the dashboard should answer |
-| 2 | **Understanding the Data** — Explored structure, columns, and data quality issues |
-| 3 | **Data Connection via Power Query** — Imported both datasets into Excel using Power Query |
-| 4 | **Data Cleaning & Quality Check (Power Query)** — Standardized gender values (M → Male, F → Female), removed duplicate column (Patient Admission Flag.1), handled nulls, fixed date formats |
-| 5 | **Calendar Table (Power Query)** — Built a custom Calendar Table from the dataset using M language in Power Query, used for time-based analysis |
-| 6 | **Data Modelling in Power Pivot** — Loaded datasets into the Data Model and built a **one-to-many relationship** between tables |
-| 7 | **DAX Calculations** — Created calculated columns and measures using DAX formulas in Power Pivot |
-| 8 | **Pivot Tables** — Loaded data from the Data Model into Pivot Tables in an existing sheet |
-| 9 | **Dashboard Development** — Built an interactive dashboard using charts, slicers, sparklines, area charts, bar charts, donut chart, and KPI visuals |
-| 10 | **Insights Generation** — Derived key findings from the complete dataset |
+ Steps : 
 
----
+ 1  **Business Requirement Gathering** — Defined KPIs and questions the dashboard should answer 
+ 2  **Understanding the Data** — Explored structure, columns, and data quality issues 
+ 3  **Data Connection via Power Query** — Imported both datasets into Excel using Power Query 
+ 4  **Data Cleaning & Quality Check (Power Query)** — Standardized gender values (M → Male, F → Female), removed            duplcate column (Patient Admission Flag.1), handled nulls, fixed date formats 
+ 5  **Calendar Table (Power Query)** — Built a custom Calendar Table from the dataset using M language in Power             Query, used for time-based analysis 
+ 6  **Data Modelling in Power Pivot** — Loaded datasets into the Data Model and built a **one-to-many relationship**        between tables 
+ 7  **DAX Calculations** — Created calculated columns and measures using DAX formulas in Power Pivot 
+ 8  **Pivot Tables** — Loaded data from the Data Model into Pivot Tables in an existing sheet 
+ 9  **Dashboard Development** — Built an interactive dashboard using charts, slicers, sparklines, area charts, bar          charts, donut chart, and KPI visuals 
+ 10  **Insights Generation** — Derived key findings from the complete dataset 
 
-## ✅ Dashboard KPIs Covered
 
-| KPI | Status |
-|-----|--------|
-| Total Number of Patients | ✅ |
-| Average Wait Time | ✅ |
-| Patient Admission Status (Admitted / Not Admitted) | ✅ |
-| Patient Age Distribution | ✅ |
-| Gender Analysis | ✅ |
-| Department Referrals | ✅ |
-| % of Patients Seen Within 30 Minutes | ✅ |
+Dashboard KPIs Covered
 
----
+ KPI | Status 
+-----|--------
+ Total Number of Patients 
+ Average Wait Time 
+ Patient Admission Status (Admitted / Not Admitted) 
+ Patient Age Distribution 
+ Gender Analysis 
+ Department Referrals 
+ % of Patients Seen Within 30 Minutes 
 
-## 📊 Key Insights
-> *Insights are based on the default full-year view. Numbers update dynamically based on slicer selections (month/year)*
+
+ Key Insights
+*Insights are based on the default full-year view. Numbers update dynamically based on slicer selections (month/year)*
 
 - **More than half of all patients experienced delays** — the majority of ER visitors waited longer than 30 minutes, highlighting a significant operational bottleneck in patient flow
 - **Average wait time exceeds 30 minutes** — with a wide range across days, suggesting inconsistent staffing or triage processes that could be improved
@@ -54,7 +52,7 @@ Project Workflow
 
 ---
 
-## 🛠️ Tools & Techniques Used
+ Tools & Techniques Used
 
 - **Microsoft Excel** — Primary tool
 - **Power Query** — Data import, cleaning, transformation, and Calendar Table creation
@@ -64,9 +62,9 @@ Project Workflow
 - **Charts** — Area charts, bar charts, donut chart, sparklines
 - **Slicers** — Interactive filtering on the dashboard
 
----
 
-## 🗃️ Raw Dataset Overview
+
+Raw Dataset Overview
 
 | Column | Description |
 |--------|-------------|
@@ -83,9 +81,9 @@ Project Workflow
 
 **Total records:** 9,216 | **Time period:** 2023
 
----
 
-## 📁 File Structure
+
+ File Structure
 
 | Sheet | Description |
 |-------|-------------|
@@ -97,21 +95,13 @@ Project Workflow
 
 > **Note:** Raw and cleaned data were loaded directly into the **Power Pivot Data Model** via Power Query and are not visible as separate sheets. This is intentional — the Data Model stores and manages the data, powering all pivot tables and DAX calculations.
 
----
 
-## 🔗 Data Model
 
-A **one-to-many relationship** was built in Power Pivot between the two source datasets. See the data model screenshot below:
+Data Model
 
-![Data Model](data_model.png)
+A **one-to-many relationship** was built in Power Pivot between the two source datasets. See the data model screenshot --> uploaded
 
----
 
-## 📈 Dashboard Preview
-
-![Dashboard](dashboard_screenshot.png)
-
----
 
  Skills Demonstrated
 
